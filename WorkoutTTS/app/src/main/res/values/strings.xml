@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">跟练语音播报</string>
+    <string name="btn_select">① 选择区域（拖框）</string>
+    <string name="btn_start">② 开始监控</string>
+    <string name="btn_stop">③ 停止</string>
+    <string name="btn_test">④ 测试识别（不朗读）</string>
+    <string name="status_idle">未选择区域</string>
+    <string name="last_default">—</string>
+    <string name="channel_name">跟练播报服务</string>
+    <string name="notification_text">正在监控屏幕动作…</string>
+</resources>

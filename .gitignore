@@ -1,0 +1,27 @@
+# ===== Android / Gradle 构建产物 =====
+*.iml
+.idea/
+.gradle/
+local.properties
+build/
+*.apk
+*.aar
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 本地项目记忆（勿提交）=====
+.workbuddy/
+
+# ===== 运行时生成文件 =====
+tts_tmp.mp3
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
