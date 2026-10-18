@@ -1,0 +1,46 @@
+# ========== Android / Gradle 标准忽略规则 ==========
+
+# 编译产物（自动生成，千万别提交）
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+*/build/
+
+# Gradle 本地缓存（机器相关，非工程内容）
+.gradle/
+
+# ★ 重要：保留 gradle/wrapper/（Gradle Wrapper 必须进版本库）
+#   上面的 .gradle/ 带点号，只忽略“点 gradle”缓存目录；
+#   不带点的 gradle/wrapper/ 不被忽略，请照常 git add。
+
+# 本机 SDK 路径（local.properties 含 sdk.dir=本机专属路径，禁止提交）
+local.properties
+
+# Android Studio / IntelliJ IDEA 本地配置
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 签名文件（泄露有风险）
+*.jks
+*.keystore
+
+# 日志 / 系统文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 性能分析文件
+*.hprof
+
+# Google Services 等敏感配置（如用到再取消注释）
+# google-services.json

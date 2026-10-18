@@ -1,0 +1,11 @@
+{
+  "url": "https://hb-admin.vikpay.com/h5/hb/new?code=021BkrGa13cWBM0C2oJa1vQ5kY0BkrGN&state=%E9%A5%AD%E6%90%AD%E5%AD%90%E5%B0%8F%E8%83%96",
+  "targets": [
+    "button.old-btn-get:not(.eleme):not(.random)",
+    "button.trial-btn-get",
+    "button.old-btn-get.eleme",
+    "button.old-btn-get.random"
+  ],
+  "wait_after_click_ms": 4000,
+  "headless": true
+}
