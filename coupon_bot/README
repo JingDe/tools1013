@@ -1,8 +1,9 @@
-https://hb-admin.vikpay.com/h5/hb/new?code=021BkrGa13cWBM0C2oJa1vQ5kY0BkrGN&state=%E9%A5%AD%E6%90%AD%E5%AD%90%E5%B0%8F%E8%83%96
+1，今天的地址是  https://hb-admin.vikpay.com/h5/hb/new?code=071Q1a0w3FBiY73AQz3w3AbNoV1Q1a0e&state=%E9%A5%AD%E6%90%AD%E5%AD%90%E5%B0%8F%E8%83%96
+
+2，因为今天我自己手动点击了，所以页面形态不完全一样了。我暂时按照我的记忆，截图里面框出来我平时点的位置。
+部分位置原来是个按钮，现在已经直接展示我领过的优惠券了。
 
 
+3，这个地址直接点开的第一个页面，美团相关的是这几个按钮：
 
-C:\Users\王旭\.workbuddy\binaries\python\envs\default\Scripts\python.exe D:\MyDiskSpace\programmer\gitrepo\tools1013\coupon_bot\coupon_explore.py "https://hb-admin.vikpay.com/h5/hb/new?code=021BkrGa13cWBM0C2oJa1vQ5kY0BkrGN&state=%E9%A5%AD%E6%90%AD%E5%AD%90%E5%B0%8F%E8%83%96"
 
-
-C:\Users\王旭\.workbuddy\binaries\python\envs\default\Scripts\python.exe D:\MyDiskSpace\programmer\gitrepo\tools1013\coupon_bot\coupon_probe.py "https://hb-admin.vikpay.com/h5/hb/new?code=021BkrGa13cWBM0C2oJa1vQ5kY0BkrGN&state=%E9%A5%AD%E6%90%AD%E5%AD%90%E5%B0%8F%E8%83%96"

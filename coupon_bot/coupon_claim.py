@@ -11,11 +11,13 @@ from playwright.sync_api import sync_playwright
 
 
 def pause(msg):
-    """仅在交互式终端才等待回车；非交互（如定时任务/无 tty）直接打印并继续，避免挂死。"""
+    """非交互（无 tty / 管道 EOF）时只打印不等待；交互时等待回车。避免定时任务挂死。"""
+    print(msg)
     if sys.stdin.isatty():
-        input(msg)
-    else:
-        print(msg)
+        try:
+            input()
+        except EOFError:
+            pass
 
 HERE = Path(__file__).parent
 CONFIG_PATH = HERE / "claim_config.json"
