@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@android:drawable/ic_dialog_info"
         android:label="@string/app_name"
@@ -24,16 +25,15 @@
             </intent-filter>
         </activity>
 
-        <!-- 透明全屏，用于拖框选择区域 -->
-        <activity
-            android:name=".RegionActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <!-- 录屏 + OCR + TTS 的前台服务 -->
         <service
             android:name=".CaptureService"
             android:exported="false"
             android:foregroundServiceType="mediaProjection" />
+
+        <!-- 基于截图的选区域：从相册选一张 B 站视频截图，在截图上拖框 -->
+        <activity
+            android:name=".PickRegionActivity"
+            android:exported="false" />
     </application>
 </manifest>
